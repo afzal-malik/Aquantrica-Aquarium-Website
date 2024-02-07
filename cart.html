@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatrinica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="Images/x-logo1" href="Images/logo1.png">
+  </head>
+
+  <body>
+
+    <section id="header">
+      <img src="Images/logo1.png" class="img img-fluid" style="height:70px;" alt="logo">
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fishes.html">Fishes</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="signup.html">Signup/Login</a></li>
+          <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="cart-image" class="about-header">
+       <h2></h2>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="Images\fish\2-Poecilia-reticulata-Poecilia-reticulata-Guppy-Male-Blue-Cobra.jpg" alt=""></td>
+            <td>Guppy-Male-Blue-Cobra</td>
+            <td>250 Rs</td>
+            <td><input type="number" value="2"></td>
+            <td>500 Rs</td>
+          </tr>
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="Images\fish\Betta-splendens-flower-tail-Over-Halfmoon.jpg" alt=""></td>
+            <td>Flower-Tail-Over-Halfmoon</td>
+            <td>300 Rs</td>
+            <td><input type="number" value="1"></td>
+            <td>300 Rs</td>
+          </tr>
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="Images\water pump\boyu water pump.jpg" alt=""></td>
+            <td>Boyu Water Pump</td>
+            <td>3000 Rs</td>
+            <td><input type="number" value="1"></td>
+            <td>3000 Rs</td>
+          </tr>
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="Images\air pump\Sobo1.jpg" alt=""></td>
+            <td>Sobo Air Pump</td>
+            <td>3000 Rs</td>
+            <td><input type="number" value="1"></td>
+            <td>3000 Rs</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon">
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotals</td>
+            <td>6800 Rs</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td><strong>6800 Rs</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer class="section-p1">
+        <div class="col">
+          <img class="logo" src="Images/logo1.png" alt="" style="height: 80px;">
+          <h4>Contact</h4>
+          <p><strong>Address: </strong> 73/1A, Mawathupola, Alawathugoda</p>
+          <p><strong>Phone:</strong> +94767779134 /+94771837709</p>
+          <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+          <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+            <img src="Images/app.jpg" alt="">
+            <img src="Images/play.jpg" alt="">
+          </div>
+           <p>Secured Payment Gateways</p>
+           <img src="Images/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+          <p>©2023,Aquatrinica, All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+  </body>
+</html>
